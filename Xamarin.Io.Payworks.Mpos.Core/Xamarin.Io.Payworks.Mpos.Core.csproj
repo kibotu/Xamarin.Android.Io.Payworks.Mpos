@@ -91,11 +91,11 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\mpos.core-2.37.0.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
     <None Include="mpos.core-2.37.0.pom" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\mpos.core-2.37.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets')" />
