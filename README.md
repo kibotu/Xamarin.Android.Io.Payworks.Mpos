@@ -4,9 +4,9 @@ Xamarin Binding for [Concordis Android SDK](http://www.payworks.mpymnt.com/node/
 
 Including 
 
-- io.payworks.core
-- io.payworks.android.core
-- io.payworks.android.ui
+- [io.payworks.core](http://releases.payworks.io/artifactory/mpos/io/payworks/mpos.core/) 
+- [io.payworks.android.core](http://releases.payworks.io/artifactory/mpos/io/payworks/mpos.android.core/)
+- [io.payworks.android.ui](http://releases.payworks.io/artifactory/mpos/io/payworks/mpos.android.ui/)
 
 ## How to use
 
