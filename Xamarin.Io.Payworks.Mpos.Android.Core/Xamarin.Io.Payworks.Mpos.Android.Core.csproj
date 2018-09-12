@@ -62,9 +62,6 @@
     <Reference Include="Bolts.Tasks">
       <HintPath>..\packages\Bolts.1.4.0.1\lib\MonoAndroid403\Bolts.Tasks.dll</HintPath>
     </Reference>
-    <Reference Include="Square.OkIO">
-      <HintPath>..\packages\Square.OkIO.1.6.0.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
-    </Reference>
     <Reference Include="Square.OkHttp">
       <HintPath>..\packages\Square.OkHttp.2.7.5.0\lib\MonoAndroid\Square.OkHttp.dll</HintPath>
     </Reference>
@@ -76,6 +73,12 @@
     </Reference>
     <Reference Include="Couchbase.Lite.Support.Android">
       <HintPath>..\packages\Couchbase.Lite.Support.Android.2.1.0\lib\monoandroid41\Couchbase.Lite.Support.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkIO">
+      <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkHttp.WS">
+      <HintPath>..\packages\Square.OkHttp.WS.2.7.5.0\lib\MonoAndroid\Square.OkHttp.WS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
