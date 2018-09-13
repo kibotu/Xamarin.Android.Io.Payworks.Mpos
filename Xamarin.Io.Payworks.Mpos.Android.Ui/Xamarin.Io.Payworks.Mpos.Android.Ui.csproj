@@ -28,6 +28,7 @@
     <Title>Xamarin.Android.Io.Payworks.Mpos.Android.Ui</Title>
     <Description>2.37.0</Description>
     <PackOnBuild>true</PackOnBuild>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -86,6 +87,17 @@
     <Reference Include="Xamarin.Android.Support.v7.CardView">
       <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v7.CardView.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="SimpleInjector">
+      <HintPath>..\packages\SimpleInjector.4.0.12\lib\netstandard1.3\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="Couchbase.Lite">
+      <HintPath>..\packages\Couchbase.Lite.2.1.0\lib\netstandard2.0\Couchbase.Lite.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,13 +119,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin.Io.Payworks.Mpos.Core\Xamarin.Io.Payworks.Mpos.Core.csproj">
-      <Project>{EDAA4674-D7B9-47FA-B9DD-57BC41A2E9BB}</Project>
-      <Name>Xamarin.Io.Payworks.Mpos.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xamarin.Io.Payworks.Mpos.Android.Core\Xamarin.Io.Payworks.Mpos.Android.Core.csproj">
-      <Project>{966830E2-9FF5-4E1A-91D4-76FC8963C097}</Project>
+      <Project>{966830e2-9ff5-4e1a-91d4-76fc8963c097}</Project>
       <Name>Xamarin.Io.Payworks.Mpos.Android.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xamarin.Io.Payworks.Mpos.Core\Xamarin.Io.Payworks.Mpos.Core.csproj">
+      <Project>{edaa4674-d7b9-47fa-b9dd-57bc41a2e9bb}</Project>
+      <Name>Xamarin.Io.Payworks.Mpos.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
