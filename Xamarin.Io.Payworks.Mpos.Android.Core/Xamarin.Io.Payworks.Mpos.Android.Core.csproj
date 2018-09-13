@@ -113,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Io.Payworks.Mpos.Core\Xamarin.Io.Payworks.Mpos.Core.csproj">
-      <Project>{EDAA4674-D7B9-47FA-B9DD-57BC41A2E9BB}</Project>
+      <Project>{edaa4674-d7b9-47fa-b9dd-57bc41a2e9bb}</Project>
       <Name>Xamarin.Io.Payworks.Mpos.Core</Name>
     </ProjectReference>
   </ItemGroup>

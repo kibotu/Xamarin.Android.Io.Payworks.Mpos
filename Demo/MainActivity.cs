@@ -3,6 +3,14 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Android.Util;
+using IO.Mpos.Accessories;
+using IO.Mpos.Accessories.Parameters;
+using IO.Mpos.Provider;
+using IO.Mpos.Transactions.Parameters;
+using IO.Mpos.UI.Shared;
+using IO.Mpos.UI.Shared.Model;
+using Java.Math;
+using Java.Util;
 
 namespace Demo
 {
@@ -25,52 +33,54 @@ namespace Demo
         /// </summary>
         private void Pay()
         {
-            //MposUi ui = MposUi.initialize(this, ProviderMode.MOCK, "merchantIdentifier", "merchantSecretKey");
+            MposUi ui = MposUi.Initialize(this, ProviderMode.Mock, "merchantIdentifier", "merchantSecretKey");
 
-            //ui.getConfiguration().setSummaryFeatures(EnumSet.of(
-            //        // Add this line, if you do want to offer printed receipts
-            //        // MposUiConfiguration.SummaryFeature.PRINT_RECEIPT,
-            //        MposUiConfiguration.SummaryFeature.SEND_RECEIPT_VIA_EMAIL)
-            //);
+            ui.Configuration.SetSummaryFeatures(EnumSet.Of(
+                // Add this line, if you do want to offer printed receipts
+                // MposUiConfiguration.SummaryFeature.PRINT_RECEIPT,
+                MposUiConfiguration.SummaryFeature.SendReceiptViaEmail)
+            );
 
             //// Start with a mocked card reader:
-            //AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(AccessoryFamily.MOCK)
-            //        .mocked()
-            //        .build();
-            //ui.getConfiguration().setTerminalParameters(accessoryParameters);
+            AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(AccessoryFamily.Mock)
+                .Mocked()
+                .Build();
+            ui.Configuration.SetTerminalParameters(accessoryParameters);
 
-            //TransactionParameters transactionParameters = new TransactionParameters.Builder()
-            //        .charge(new BigDecimal("5.00"), io.mpos.transactions.Currency.EUR)
-            //        .subject("Bouquet of Flowers")
-            //        .customIdentifier("yourReferenceForTheTransaction")
-            //        .build();
+            var transactionParameters = new TransactionParametersBuilder()
+                .Charge(new BigDecimal("5.00"), IO.Mpos.Transactions.Currency.Eur)
+                .Subject("Bouquet of Flowers")
+                .CustomIdentifier("yourReferenceForTheTransaction")
+                .Build();
 
-            //Intent intent = ui.createTransactionIntent(transactionParameters);
-            //startActivityForResult(intent, MposUi.REQUEST_CODE_PAYMENT);
+            Intent intent = ui.CreateTransactionIntent(transactionParameters);
+            StartActivityForResult(intent, MposUi.RequestCodePayment);
         }
+
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
             Log.Verbose("Demo", $"[OnActivityResult] {requestCode} {resultCode} {data}");
-            //    if (requestCode == MposUi.REQUEST_CODE_PAYMENT)
-            //    {
-            //        if (resultCode == MposUi.RESULT_CODE_APPROVED)
-            //        {
-            //            // Transaction was approved
-            //            Toast.makeText(this, "Transaction approved", Toast.LENGTH_LONG).show();
-            //        }
-            //        else
-            //        {
-            //            // Card was declined, or transaction was aborted, or failed
-            //            // (e.g. no internet or accessory not found)
-            //            Toast.makeText(this, "Transaction was declined, aborted, or failed", Toast.LENGTH_LONG).show();
-            //        }
-            //        // Grab the processed transaction in case you need it
-            //        // (e.g. the transaction identifier for a refund).
-            //        // Keep in mind that the returned transaction might be null
-            //        // (e.g. if it could not be registered).
-            //        Transaction transaction = MposUi.getInitializedInstance().getTransaction();
-            //    }
+            if (requestCode == MposUi.RequestCodePayment)
+            {
+//                if (resultCode == MposUi.ResultCodeApproved)
+//                {
+                    // Transaction was approved
+                    Toast.MakeText(this, $"Transaction approved {resultCode}", ToastLength.Long).Show();
+//                }
+//                else
+//                {
+//                    // Card was declined, or transaction was aborted, or failed
+//                    // (e.g. no internet or accessory not found)
+//                    Toast.MakeText(this, "Transaction was declined, aborted, or failed", ToastLength.Long).Show();
+//                }
+
+                // Grab the processed transaction in case you need it
+                // (e.g. the transaction identifier for a refund).
+                // Keep in mind that the returned transaction might be null
+                // (e.g. if it could not be registered).
+                var transaction = MposUi.InitializedInstance.Transaction;
+            }
         }
     }
 }

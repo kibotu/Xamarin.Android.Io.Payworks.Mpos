@@ -5,6 +5,7 @@
       <e p=".gitignore" t="Include" />
       <e p="clean.sh" t="Include" />
       <e p="Demo" t="IncludeRecursive">
+        <e p="App.cs" t="Include" />
         <e p="Assets" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Demo.csproj" t="IncludeRecursive" />
@@ -155,6 +156,7 @@
                 <e p="IO.Mpos.UI.Paybutton.View.ITransactionInteractionListener.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.ReadCardFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.SelectionFragment.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.SignatureFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.SignatureView.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.TransactionFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Printbutton.Controller.StatefulPrintingProcessProxy.cs" t="Include" />
@@ -202,14 +204,91 @@
               </e>
               <e p="11" t="Include">
                 <e p="jl" t="Include">
-                  <e p="support-annotations.jar" t="Include" />
+                  <e p="arch-core-common.jar" t="Include" />
                 </e>
               </e>
               <e p="12" t="Include">
                 <e p="jl" t="Include">
+                  <e p="arch-lifecycle-common.jar" t="Include" />
+                </e>
+              </e>
+              <e p="13" t="Include">
+                <e p="jl" t="Include">
                   <e p="bin" t="Include">
                     <e p="classes.jar" t="Include" />
                   </e>
+                </e>
+              </e>
+              <e p="14" t="Include">
+                <e p="jl" t="Include">
+                  <e p="support-annotations.jar" t="Include" />
+                </e>
+              </e>
+              <e p="15" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="16" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="17" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="18" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="19" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="20" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="21" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="22" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="23" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="24" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="25" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
                 </e>
               </e>
               <e p="5" t="Include">
