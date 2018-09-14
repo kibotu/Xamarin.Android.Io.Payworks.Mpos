@@ -14,7 +14,7 @@ using Android.Util;
 
 namespace Demo
 {
-    [Activity(Label = "Demo2", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Demo", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

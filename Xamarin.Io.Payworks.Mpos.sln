@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateLess4j", "StateLess4j\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otto", "Otto\Otto.csproj", "{209747F1-519E-495D-91D0-C0B1B26D9182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{B467A1EF-733A-4C16-B114-F8F2EB009885}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,5 +101,9 @@ Global
 		{209747F1-519E-495D-91D0-C0B1B26D9182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209747F1-519E-495D-91D0-C0B1B26D9182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209747F1-519E-495D-91D0-C0B1B26D9182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B467A1EF-733A-4C16-B114-F8F2EB009885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B467A1EF-733A-4C16-B114-F8F2EB009885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B467A1EF-733A-4C16-B114-F8F2EB009885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B467A1EF-733A-4C16-B114-F8F2EB009885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
