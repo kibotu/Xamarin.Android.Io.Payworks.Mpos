@@ -1,10 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+
+    <remove-node path="/api/package[@name='com.couchbase.lite.support']/interface[@name='ClearableCookieJar']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite']/class[@name='QueryEnumerator']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.replicator']/class[@name='PullerInternal']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.replicator']/class[@name='PusherInternal']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite']/class[@name='Database']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.replicator']/class[@name='RemoteBulkDownloaderRequest']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.replicator']/class[@name='Replication']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite']/class[@name='SavedRevision']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.support']/class[@name='WeakValueHashMap']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.support']/class[@name='LazyJsonObject']"/>
+    <remove-node path="/api/package[@name='com.couchbase.lite.support']/class[@name='Version']"/>
+    
+    
 </metadata>

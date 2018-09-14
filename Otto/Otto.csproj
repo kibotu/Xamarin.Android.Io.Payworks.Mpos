@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7874A0C4-F6A9-42D8-AD21-B212D527BFF4}</ProjectGuid>
+    <ProjectGuid>{209747F1-519E-495D-91D0-C0B1B26D9182}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Couchbase.Lite.Android</RootNamespace>
-    <AssemblyName>Couchbase.Lite.Android</AssemblyName>
+    <RootNamespace>Otto</RootNamespace>
+    <AssemblyName>Otto</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -41,15 +41,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Square.OkHttp3.WS">
-      <HintPath>..\packages\Square.OkHttp3.WS.3.4.2\lib\MonoAndroid\Square.OkHttp3.WS.dll</HintPath>
-    </Reference>
-    <Reference Include="Square.OkIO">
-      <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
-    </Reference>
-    <Reference Include="Square.OkHttp3">
-      <HintPath>..\packages\Square.OkHttp3.3.8.1\lib\MonoAndroid\Square.OkHttp3.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,41 +55,10 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\couchbase-lite-android-1.4.0.aar" />
+    <EmbeddedJar Include="Jars\otto-1.3.5.jar" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="couchbase-lite-android-1.4.0.pom" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Couchbase.Lite.Java.Core\Couchbase.Lite.Java.Core.csproj">
-      <Project>{B3206E6F-88AD-4ADE-BBA6-CE3CFB18DBC8}</Project>
-      <Name>Couchbase.Lite.Java.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Otto\Otto.csproj">
-      <Project>{209747F1-519E-495D-91D0-C0B1B26D9182}</Project>
-      <Name>Otto</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Jackson.Databinding\Jackson.Databinding.csproj">
-      <Project>{B55C9311-C049-4A0E-8BAE-E78D080D27B7}</Project>
-      <Name>Jackson.Databinding</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Jackson.Core\Jackson.Core.csproj">
-      <Project>{0C37F647-416D-463D-B3C9-F0896DFC8EAB}</Project>
-      <Name>Jackson.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Jackson.Annotations\Jackson.Annotations.csproj">
-      <Project>{15269FA4-D166-40CE-A713-B57F21FC5159}</Project>
-      <Name>Jackson.Annotations</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StateLess4j\StateLess4j.csproj">
-      <Project>{01D920C8-29E8-434E-A144-BC7FFD227F23}</Project>
-      <Name>StateLess4j</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Couchbase.Lite.Android.Custom\Couchbase.Lite.Android.Custom.csproj">
-      <Project>{06BE40A6-47C3-467E-8E07-5377FF219672}</Project>
-      <Name>Couchbase.Lite.Android.Custom</Name>
-    </ProjectReference>
+    <None Include="otto-1.3.5.pom" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

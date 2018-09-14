@@ -64,9 +64,6 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\couchbase-lite-java-core-1.4.0.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="couchbase-lite-java-core-1.4.0.pom" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -87,6 +84,13 @@
       <Project>{15269FA4-D166-40CE-A713-B57F21FC5159}</Project>
       <Name>Jackson.Annotations</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Otto\Otto.csproj">
+      <Project>{209747F1-519E-495D-91D0-C0B1B26D9182}</Project>
+      <Name>Otto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\couchbase-lite-java-core-1.4.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

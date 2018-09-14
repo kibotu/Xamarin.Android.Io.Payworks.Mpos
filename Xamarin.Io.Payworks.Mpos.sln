@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Couchbase.Lite.Java.Core", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateLess4j", "StateLess4j\StateLess4j.csproj", "{01D920C8-29E8-434E-A144-BC7FFD227F23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otto", "Otto\Otto.csproj", "{209747F1-519E-495D-91D0-C0B1B26D9182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,5 +101,9 @@ Global
 		{01D920C8-29E8-434E-A144-BC7FFD227F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D920C8-29E8-434E-A144-BC7FFD227F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D920C8-29E8-434E-A144-BC7FFD227F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209747F1-519E-495D-91D0-C0B1B26D9182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209747F1-519E-495D-91D0-C0B1B26D9182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209747F1-519E-495D-91D0-C0B1B26D9182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209747F1-519E-495D-91D0-C0B1B26D9182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
