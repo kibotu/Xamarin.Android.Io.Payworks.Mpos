@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackageId>Parse.Bolts</PackageId>
+    <PackageVersion>1.2.1</PackageVersion>
+    <Authors>Parse</Authors>
+    <Owners>Parse.Bolts</Owners>
+    <Description>1.2.1</Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/BoltsFramework/Bolts-Android/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://git.exozet.com/aohostels/Io.Payworks.Mpos</PackageProjectUrl>
+    <PackageReleaseNotes>1.2.1</PackageReleaseNotes>
+    <Summary>Parse.Bolts</Summary>
+    <PackageTags>xamarin android parse bolts</PackageTags>
+    <Title>Parse.Bolts</Title>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

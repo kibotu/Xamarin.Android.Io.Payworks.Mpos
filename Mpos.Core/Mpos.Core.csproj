@@ -91,6 +91,22 @@
       <Project>{B55C9311-C049-4A0E-8BAE-E78D080D27B7}</Project>
       <Name>Jackson.Databinding</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Otto\Otto.csproj">
+      <Project>{209747F1-519E-495D-91D0-C0B1B26D9182}</Project>
+      <Name>Otto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StateLess4j\StateLess4j.csproj">
+      <Project>{01D920C8-29E8-434E-A144-BC7FFD227F23}</Project>
+      <Name>StateLess4j</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Couchbase.Lite.Android.Custom\Couchbase.Lite.Android.Custom.csproj">
+      <Project>{06BE40A6-47C3-467E-8E07-5377FF219672}</Project>
+      <Name>Couchbase.Lite.Android.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Couchbase.Lite.Java.Core\Couchbase.Lite.Java.Core.csproj">
+      <Project>{B3206E6F-88AD-4ADE-BBA6-CE3CFB18DBC8}</Project>
+      <Name>Couchbase.Lite.Java.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="mpos.core-2.37.0.pom" />

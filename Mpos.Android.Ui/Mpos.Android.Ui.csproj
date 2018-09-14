@@ -121,6 +121,14 @@
       <Project>{01D920C8-29E8-434E-A144-BC7FFD227F23}</Project>
       <Name>StateLess4j</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Couchbase.Lite.Android.Custom\Couchbase.Lite.Android.Custom.csproj">
+      <Project>{06BE40A6-47C3-467E-8E07-5377FF219672}</Project>
+      <Name>Couchbase.Lite.Android.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Couchbase.Lite.Java.Core\Couchbase.Lite.Java.Core.csproj">
+      <Project>{B3206E6F-88AD-4ADE-BBA6-CE3CFB18DBC8}</Project>
+      <Name>Couchbase.Lite.Java.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="mpos.android.ui-2.37.0.pom" />

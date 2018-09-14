@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Jackson.Annotations</PackageId>
+    <PackageVersion>2.5.0</PackageVersion>
+    <Authors>FasterXml</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/FasterXML/jackson#paperwork</PackageLicenseUrl>
+    <Owners>FasterXml</Owners>
+    <PackageProjectUrl>https://github.com/FasterXML/jackson</PackageProjectUrl>
+    <PackageReleaseNotes>2.5.0</PackageReleaseNotes>
+    <Summary>Jackson.Annotations</Summary>
+    <PackageTags>xamarin android jackson annotations</PackageTags>
+    <Title>Jackson.Annotations</Title>
+    <Description>2.5.0</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

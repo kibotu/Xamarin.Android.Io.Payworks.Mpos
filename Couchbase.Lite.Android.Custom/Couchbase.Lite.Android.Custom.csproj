@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackageId>Couchbase.Lite.Android.Custom</PackageId>
+    <PackageVersion>1.4.0</PackageVersion>
+    <Authors>Couchbase</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>http://www.couchbase.com/agreement/community</PackageLicenseUrl>
+    <Owners>Couchbase</Owners>
+    <PackageProjectUrl>https://git.exozet.com/aohostels/Io.Payworks.Mpos</PackageProjectUrl>
+    <PackageReleaseNotes>1.4.0</PackageReleaseNotes>
+    <Summary>Couchbase.Lite.Android.Custom</Summary>
+    <PackageTags>xamarin couchbase lite android custom</PackageTags>
+    <Title>Couchbase.Lite.Android.Custom</Title>
+    <Description>1.4.0</Description>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
