@@ -96,24 +96,24 @@
                   <e p="bolts-tasks.jar" t="Include" />
                 </e>
               </e>
-              <e p="10" t="Include">
-                <e p="jl" t="Include">
-                  <e p="okio.jar" t="Include" />
-                </e>
-              </e>
-              <e p="5" t="Include">
-                <e p="jl" t="Include">
-                  <e p="jackson-core-2.7.4.jar" t="Include" />
-                </e>
-              </e>
-              <e p="8" t="Include">
+              <e p="13" t="Include">
                 <e p="jl" t="Include">
                   <e p="okhttp.jar" t="Include" />
                 </e>
               </e>
-              <e p="9" t="Include">
+              <e p="14" t="Include">
                 <e p="jl" t="Include">
                   <e p="okhttp-ws.jar" t="Include" />
+                </e>
+              </e>
+              <e p="15" t="Include">
+                <e p="jl" t="Include">
+                  <e p="okio.jar" t="Include" />
+                </e>
+              </e>
+              <e p="6" t="Include">
+                <e p="jl" t="Include">
+                  <e p="jackson-core-2.7.4.jar" t="Include" />
                 </e>
               </e>
             </e>
@@ -146,20 +146,28 @@
                 <e p="IO.Mpos.UI.Acquirer.ApplicationData.cs" t="Include" />
                 <e p="IO.Mpos.UI.Acquirer.ApplicationName.cs" t="Include" />
                 <e p="IO.Mpos.UI.Acquirer.MposUiAccountManager.cs" t="Include" />
+                <e p="IO.Mpos.UI.Acquirer.View.LoginActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Acquirer.View.LoginFragment.cs" t="Include" />
+                <e p="IO.Mpos.UI.Acquirer.View.SettingsActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Acquirer.View.SettingsFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Acquirer.Widget.MposUiPreferenceCategory.cs" t="Include" />
                 <e p="IO.Mpos.UI.BuildConfig.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.Controller.StatefulReadCardProcessProxy.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.AbstractTransactionActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.AbstractTransactionFragment.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.Barcodescanner.BarcodeCaptureActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.Barcodescanner.CameraSourcePreview.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.ITransactionInteractionListener.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.ReadCardActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.ReadCardFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.SelectionFragment.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.SignatureActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.SignatureFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.SignatureView.cs" t="Include" />
+                <e p="IO.Mpos.UI.Paybutton.View.TransactionActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Paybutton.View.TransactionFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Printbutton.Controller.StatefulPrintingProcessProxy.cs" t="Include" />
+                <e p="IO.Mpos.UI.Printbutton.View.PrintReceiptActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.Model.MposUiAppearance.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.Model.MposUiConfiguration.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.Model.RefundTransactionDataHolder.cs" t="Include" />
@@ -172,12 +180,14 @@
                 <e p="IO.Mpos.UI.Shared.Util.TransactionHistoryHelper.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.Util.UiHelper.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.Util.UiState.cs" t="Include" />
+                <e p="IO.Mpos.UI.Shared.View.AbstractBaseActivity.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.View.ErrorCustomMessageFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.View.ErrorFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.View.PrintReceiptFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.View.SendReceiptFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Shared.View.SummaryFragment.cs" t="Include" />
                 <e p="IO.Mpos.UI.Summarybutton.View.LoadTransactionSummaryFragment.cs" t="Include" />
+                <e p="IO.Mpos.UI.Summarybutton.View.TransactionSummaryActivity.cs" t="Include" />
                 <e p="Java.Interop.__TypeRegistrations.cs" t="Include" />
               </e>
             </e>
@@ -197,62 +207,32 @@
                   <e p="bolts-tasks.jar" t="Include" />
                 </e>
               </e>
-              <e p="10" t="Include">
-                <e p="jl" t="Include">
-                  <e p="okio.jar" t="Include" />
-                </e>
-              </e>
-              <e p="11" t="Include">
-                <e p="jl" t="Include">
-                  <e p="arch-core-common.jar" t="Include" />
-                </e>
-              </e>
-              <e p="12" t="Include">
-                <e p="jl" t="Include">
-                  <e p="arch-lifecycle-common.jar" t="Include" />
-                </e>
-              </e>
               <e p="13" t="Include">
                 <e p="jl" t="Include">
-                  <e p="bin" t="Include">
-                    <e p="classes.jar" t="Include" />
-                  </e>
+                  <e p="okhttp.jar" t="Include" />
                 </e>
               </e>
               <e p="14" t="Include">
                 <e p="jl" t="Include">
-                  <e p="support-annotations.jar" t="Include" />
+                  <e p="okhttp-ws.jar" t="Include" />
                 </e>
               </e>
               <e p="15" t="Include">
                 <e p="jl" t="Include">
-                  <e p="bin" t="Include">
-                    <e p="classes.jar" t="Include" />
-                  </e>
+                  <e p="okio.jar" t="Include" />
                 </e>
               </e>
               <e p="16" t="Include">
                 <e p="jl" t="Include">
-                  <e p="bin" t="Include">
-                    <e p="classes.jar" t="Include" />
-                  </e>
+                  <e p="arch-core-common.jar" t="Include" />
                 </e>
               </e>
               <e p="17" t="Include">
                 <e p="jl" t="Include">
-                  <e p="bin" t="Include">
-                    <e p="classes.jar" t="Include" />
-                  </e>
+                  <e p="arch-lifecycle-common.jar" t="Include" />
                 </e>
               </e>
               <e p="18" t="Include">
-                <e p="jl" t="Include">
-                  <e p="bin" t="Include">
-                    <e p="classes.jar" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="19" t="Include">
                 <e p="jl" t="Include">
                   <e p="bin" t="Include">
                     <e p="classes.jar" t="Include" />
@@ -268,42 +248,100 @@
               </e>
               <e p="21" t="Include">
                 <e p="jl" t="Include">
-                  <e p="classes.jar" t="Include" />
+                  <e p="support-annotations.jar" t="Include" />
                 </e>
               </e>
               <e p="22" t="Include">
                 <e p="jl" t="Include">
-                  <e p="classes.jar" t="Include" />
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
                 </e>
               </e>
               <e p="23" t="Include">
                 <e p="jl" t="Include">
-                  <e p="classes.jar" t="Include" />
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
                 </e>
               </e>
               <e p="24" t="Include">
                 <e p="jl" t="Include">
-                  <e p="classes.jar" t="Include" />
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
                 </e>
               </e>
               <e p="25" t="Include">
                 <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="26" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="27" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="28" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="29" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="30" t="Include">
+                <e p="jl" t="Include">
                   <e p="classes.jar" t="Include" />
                 </e>
               </e>
-              <e p="5" t="Include">
+              <e p="31" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="32" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="33" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="34" t="Include">
+                <e p="jl" t="Include">
+                  <e p="classes.jar" t="Include" />
+                </e>
+              </e>
+              <e p="35" t="Include">
+                <e p="jl" t="Include">
+                  <e p="bin" t="Include">
+                    <e p="classes.jar" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="6" t="Include">
                 <e p="jl" t="Include">
                   <e p="jackson-core-2.7.4.jar" t="Include" />
-                </e>
-              </e>
-              <e p="8" t="Include">
-                <e p="jl" t="Include">
-                  <e p="okhttp.jar" t="Include" />
-                </e>
-              </e>
-              <e p="9" t="Include">
-                <e p="jl" t="Include">
-                  <e p="okhttp-ws.jar" t="Include" />
                 </e>
               </e>
             </e>
@@ -876,24 +914,24 @@
                   <e p="bolts-tasks.jar" t="Include" />
                 </e>
               </e>
-              <e p="4" t="Include">
-                <e p="jl" t="Include">
-                  <e p="jackson-core-2.7.4.jar" t="Include" />
-                </e>
-              </e>
-              <e p="7" t="Include">
+              <e p="12" t="Include">
                 <e p="jl" t="Include">
                   <e p="okhttp.jar" t="Include" />
                 </e>
               </e>
-              <e p="8" t="Include">
+              <e p="13" t="Include">
                 <e p="jl" t="Include">
                   <e p="okhttp-ws.jar" t="Include" />
                 </e>
               </e>
-              <e p="9" t="Include">
+              <e p="14" t="Include">
                 <e p="jl" t="Include">
                   <e p="okio.jar" t="Include" />
+                </e>
+              </e>
+              <e p="5" t="Include">
+                <e p="jl" t="Include">
+                  <e p="jackson-core-2.7.4.jar" t="Include" />
                 </e>
               </e>
             </e>
