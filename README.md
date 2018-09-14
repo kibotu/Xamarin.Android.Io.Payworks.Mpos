@@ -1,4 +1,4 @@
-# Xamarin.Android.Io.Payworks.Mpos
+# Xamarin.Android.Io.Payworks.Mpos [![Build Status](https://app.bitrise.io/app/bb8d6897a4501dc6/status.svg?token=UJjILGSHcup6VI5r7ie2oQ&branch=master)](https://app.bitrise.io/app/bb8d6897a4501dc6)
 
 Xamarin Binding for [Concordis Android SDK](http://www.payworks.mpymnt.com/node/143) 
 

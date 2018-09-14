@@ -12,7 +12,7 @@ using Java.Util;
 using Android.Content;
 using Android.Util;
 
-namespace Demo
+namespace Demo2
 {
     [Activity(Label = "Demo2", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
