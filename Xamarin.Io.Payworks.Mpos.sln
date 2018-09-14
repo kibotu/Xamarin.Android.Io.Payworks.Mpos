@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		clean.sh = clean.sh
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{563D9607-7D24-4B38-A1CC-4101C90F6001}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo2", "Demo2\Demo2.csproj", "{DDA97124-485E-4738-AC5E-463BEC94F151}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolts.Android", "Bolts.Android\Bolts.Android.csproj", "{11F77CEB-53F9-482B-A142-0061A5B821A4}"
@@ -45,10 +43,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{563D9607-7D24-4B38-A1CC-4101C90F6001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{563D9607-7D24-4B38-A1CC-4101C90F6001}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{563D9607-7D24-4B38-A1CC-4101C90F6001}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{563D9607-7D24-4B38-A1CC-4101C90F6001}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDA97124-485E-4738-AC5E-463BEC94F151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDA97124-485E-4738-AC5E-463BEC94F151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDA97124-485E-4738-AC5E-463BEC94F151}.Release|Any CPU.ActiveCfg = Release|Any CPU

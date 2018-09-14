@@ -11,6 +11,8 @@ using IO.Mpos.Transactions.Parameters;
 using Java.Math;
 using Java.Util;
 using Android.Content;
+using Android.Util;
+using static IO.Mpos.Shared.Processors.Payworks.Services.Response.Dto.BackendMetricsDTO;
 
 namespace Demo2
 {
@@ -52,6 +54,32 @@ namespace Demo2
             Intent intent = ui.CreateTransactionIntent(transactionParameters);
             StartActivityForResult(intent, MposUi.RequestCodePayment);
         }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            Log.Verbose("Demo", $"[OnActivityResult] {requestCode} {resultCode} {data}");
+            if (requestCode == MposUi.RequestCodePayment)
+                {
+                //if (resultCode == MposUi.ResultCodeApproved)
+                    //{
+                        // Transaction was approved
+                Toast.MakeText(this, $"Transaction {resultCode}", ToastLength.Long).Show();
+                    //}
+                    //else
+                    //{
+                    // Card was declined, or transaction was aborted, or failed
+                    // (e.g. no internet or accessory not found)
+                    //Toast.MakeText(this, "Transaction was declined, aborted, or failed", ToastLength.Long).Show();
+                    //}
+                    // Grab the processed transaction in case you need it
+                    // (e.g. the transaction identifier for a refund).
+                    // Keep in mind that the returned transaction might be null
+                    // (e.g. if it could not be registered).
+                     var transaction = MposUi.InitializedInstance.Transaction;
+                }
+        }
+
     }
 
 }

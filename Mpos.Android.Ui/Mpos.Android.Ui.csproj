@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Io.Payowrks.Mpos.Android.Ui</PackageId>
+    <PackageVersion>2.37.0</PackageVersion>
+    <Authors>Payworks GmbH</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://git.exozet.com/aohostels/Io.Payworks.Mpos/blob/aadfb5aebe72fd5b4ea58e44ef46c8b4cd117793/LICENSE.md</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Payworks GbmH</Owners>
+    <PackageProjectUrl>https://git.exozet.com/aohostels/Io.Payworks.Mpos/tree/aadfb5aebe72fd5b4ea58e44ef46c8b4cd117793</PackageProjectUrl>
+    <PackageReleaseNotes>2.37.0</PackageReleaseNotes>
+    <Summary>Io.Payowrks.Mpos.Android.Ui</Summary>
+    <Title>Io.Payowrks.Mpos.Android.Ui</Title>
+    <Description>2.37.0</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,10 +113,19 @@
       <Project>{11F77CEB-53F9-482B-A142-0061A5B821A4}</Project>
       <Name>Bolts.Android</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Otto\Otto.csproj">
+      <Project>{209747F1-519E-495D-91D0-C0B1B26D9182}</Project>
+      <Name>Otto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StateLess4j\StateLess4j.csproj">
+      <Project>{01D920C8-29E8-434E-A144-BC7FFD227F23}</Project>
+      <Name>StateLess4j</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="mpos.android.ui-2.37.0.pom" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
 </Project>
