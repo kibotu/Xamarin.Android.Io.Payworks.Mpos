@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackageId>Io.Payworks.Mpos.Android.Core</PackageId>
+    <PackageVersion>2.37.0</PackageVersion>
+    <Authors>Payworks GmbH</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>Payworks GmbH</Owners>
+    <PackageProjectUrl>https://git.exozet.com/aohostels/Io.Payworks.Mpos</PackageProjectUrl>
+    <PackageReleaseNotes>2.37.0</PackageReleaseNotes>
+    <Summary>Io.Payworks.Mpos.Android.Core</Summary>
+    <PackageTags>xamarin android io payworks mpos android core</PackageTags>
+    <Title>Io.Payworks.Mpos.Android.Core</Title>
+    <Description>2.37.0</Description>
+    <PackageLicenseUrl>https://www.payworks.com/licenses/LICENSE-1.0.txt</PackageLicenseUrl>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

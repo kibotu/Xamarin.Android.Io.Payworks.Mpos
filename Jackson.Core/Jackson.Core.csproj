@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Jackson.Core</PackageId>
+    <PackageVersion>2.5.0</PackageVersion>
+    <Authors>FasterXml</Authors>
+    <Owners>FasterXml</Owners>
+    <PackageProjectUrl>https://github.com/FasterXML/jackson</PackageProjectUrl>
+    <Summary>Jackson.Core</Summary>
+    <Title>Jackson.Core</Title>
+    <Description>2.5.0</Description>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/FasterXML/jackson#paperwork</PackageLicenseUrl>
+    <PackageReleaseNotes>2.5.0</PackageReleaseNotes>
+    <PackageTags>jackson core</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

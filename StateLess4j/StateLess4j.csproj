@@ -14,6 +14,19 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
+    <PackageId>Stateless4J</PackageId>
+    <PackageVersion>2.4.0</PackageVersion>
+    <Authors>Oxo42</Authors>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+    <Description>2.4.0</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>Oxo42</Owners>
+    <PackageProjectUrl>https://github.com/oxo42/stateless4j</PackageProjectUrl>
+    <PackageReleaseNotes>2.4.0</PackageReleaseNotes>
+    <Summary>Stateless4J</Summary>
+    <PackageTags>stateless4j</PackageTags>
+    <Title>Stateless4J</Title>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

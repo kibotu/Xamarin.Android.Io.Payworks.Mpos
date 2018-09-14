@@ -27,6 +27,7 @@
     <Summary>Io.Payowrks.Mpos.Android.Ui</Summary>
     <Title>Io.Payowrks.Mpos.Android.Ui</Title>
     <Description>2.37.0</Description>
+    <PackageTags>xamarin android io payworks mpos android ui</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
